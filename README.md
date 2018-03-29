@@ -18,7 +18,7 @@ npm i koa-protect --save
 #### With Express  
   
 ```javascript  
-const protect = require('@altonotch/koa-protect')  
+const protect = require('koa-protect')  
 const Koa = require('koa')  
 const bodyParser = require('koa-bodyparser')
 const redis = require('redis')
