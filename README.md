@@ -20,6 +20,7 @@ npm i koa-protect --save
 ```javascript  
 const protect = require('koa-protect')  
 const Koa = require('koa')  
+const ratelimit = require('koa-ratelimit')
 const bodyParser = require('koa-bodyparser')
 const redis = require('redis')
 const client = redis.createClient()  
@@ -51,7 +52,7 @@ app.use(ratelimit({
         total: 'Rate-Limit-Total'  
     },  
     max: 100  
-}));  
+}))
   
 app.use(router.routes())  
 app.use(router.allowedMethods());  
