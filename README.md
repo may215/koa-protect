@@ -1,4 +1,4 @@
-﻿## Koa-Protect by Altonotch  
+﻿## Koa-Protect by [Altonotch](https://altonotch.com/)  
   
 [![Known Vulnerabilities](https://snyk.io/test/npm/protect/badge.svg)](https://snyk.io/test/npm/koa-protect)  
   
@@ -12,7 +12,7 @@ SQL injection attacks, XSS attacks, brute force, etc...
 ### Basic usage  
   
 ```bash  
-npm i @altonotch/koa-protect --save  
+npm i koa-protect --save  
 ```  
   
 #### With Express  
