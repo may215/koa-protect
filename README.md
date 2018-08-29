@@ -1,6 +1,7 @@
 ﻿## Koa-Protect by [Altonotch](https://altonotch.com/)  
   
 [![Known Vulnerabilities](https://snyk.io/test/npm/protect/badge.svg)](https://snyk.io/test/npm/koa-protect)  
+<a href="https://communityinviter.com/apps/koa-js/koajs" rel="KoaJs Slack Community">![KoaJs Slack](https://img.shields.io/badge/Koa.Js-Slack%20Channel-Slack.svg?longCache=true&style=for-the-badge)</a>  
   
 *Works on Node.js v7 and newer.*  
   
